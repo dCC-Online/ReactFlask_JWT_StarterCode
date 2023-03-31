@@ -48,7 +48,7 @@ def create_app():
 
 def create_routes():
     """
-    Creates Flask Restful instance and regsiters all Resource routes
+    Creates Flask Restful instance and registers all Resource routes
     """
     api = Api()
     api.add_resource(RegisterResource, '/api/auth/register')
